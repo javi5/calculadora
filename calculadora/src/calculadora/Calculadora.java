@@ -18,6 +18,11 @@ public class Calculadora {
         System.out.println ("Trabajamos aquí");
     }
     
+    private double Division(int num1, int num2){
+      double resul=0;
+      resul=num1/num2; 
+      return resul;
+    }
     
     public static void main(String[] args) {
         // TODO code application logic here
